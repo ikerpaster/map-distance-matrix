@@ -159,7 +159,7 @@ const App = () => {
             <input
               type="text"
               id="longitude"
-              className="longitude"
+              className="longitude megr"
               placeholder="Put in Longitude"
               onChange={(e) => {
                 setLongitude(e.target.value);
@@ -168,7 +168,7 @@ const App = () => {
             <input
               type="text"
               id="latitude"
-              className="latitude"
+              className="latitude megr"
               placeholder="Put in latitude"
               onChange={(e) => {
                 setLatitude(e.target.value);
